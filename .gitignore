@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+frontend/.vite/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+backend/venv/
+backend/.venv/
+backend/temp/
+*.egg-info/
+dist/
+build/
+
+# Environment
+# .env # Removed by Orchids to allow .env files
+# .env.local # Removed by Orchids to allow .env files
+# .env.*.local # Removed by Orchids to allow .env files
+# frontend/.env # Removed by Orchids to allow .env files
+# backend/.env # Removed by Orchids to allow .env files
+
+# Models (large binary files)
+backend/models/*.onnx
+backend/models/*.pt
+backend/models/*.pth
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
